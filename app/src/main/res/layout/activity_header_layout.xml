@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/id_header_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp720_96"
+        android:clipToPadding="false">
+
+        <ImageView
+            android:id="@+id/iv_header_left"
+            android:layout_width="@dimen/dp720_72"
+            android:layout_height="@dimen/dp720_72"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp720_20"
+            android:padding="@dimen/dp720_10"
+            android:src="@mipmap/back_translation" />
+
+        <TextView
+            android:id="@+id/tv_header_left"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp720_20"
+            android:textColor="@color/color_5B925B"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_header_title"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/color_5B925B"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_header_right"
+            style="@style/title_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp720_20"
+            android:textColor="@color/color_5B925B"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/iv_header_right"
+            android:layout_width="@dimen/dp720_48"
+            android:layout_height="@dimen/dp720_48"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp720_20"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
