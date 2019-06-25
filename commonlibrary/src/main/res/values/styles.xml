@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- BannerView属性 -->
+    <declare-styleable name="BannerView">
+        <attr name="pointGravity" format="integer">
+            <enum name="bottomLeft" value="0"></enum>
+            <enum name="bottomRight" value="1"></enum>
+            <enum name="bottomCenter" value="2"></enum>
+            <enum name="topLeft" value="3"></enum>
+            <enum name="topRight" value="4"></enum>
+            <enum name="topCenter" value="5"></enum>
+        </attr>
+        <!-- BannerView上部或者底部间距 -->
+        <attr name="pointMarginTopOrBottom" format="dimension" />
+        <!-- BannerView左部或者右部间距 -->
+        <attr name="pointMarginLeftOrRight" format="dimension" />
+        <!-- BannerView指示器间隔 -->
+        <attr name="pointSeparation" format="dimension" />
+        <!-- BannerView指示器默认图片 -->
+        <attr name="pointNormalImg" format="reference" />
+        <!-- BannerView指示器选中图片 -->
+        <attr name="pointSelectImg" format="reference" />
+        <!-- BannerView的自定义布局 -->
+        <attr name="itemLayout" format="reference" />
+        <!-- 是否自动滚动 -->
+        <attr name="isAutoScoll" format="boolean" />
+        <!-- 是否循环滚动 -->
+        <attr name="isCycleScoll" format="boolean" />
+
+
+    </declare-styleable>
+
+
+</resources>

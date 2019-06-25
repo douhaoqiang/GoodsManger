@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+
+    <color name="transparent">#00000000</color>
+
+    <color name="color_333333">#333333</color>
+
+
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_FBFBFB">#FBFBFB</color>
+    <color name="color_EAEAEA">#EAEAEA</color>
+    <color name="color_53B890">#53B890</color>
+
+    <color name="color_000000">#000000</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_FF0000">#FF0000</color>
+    <color name="color_E7E7E7">#E7E7E7</color>
+
+    <color name="color_135EE8">#135EE8</color>
+    <color name="color_E4E4E4">#E4E4E4</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_525252">#525252</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_5A925A">#5A925A</color>
+    <color name="color_5B925B">#5B925B</color>
+    <color name="color_E6E6E6">#E6E6E6</color>
+    <color name="color_BCBCBC">#BCBCBC</color>
+    <color name="color_BEBEBE">#BEBEBE</color>
+    <color name="color_B7B7B7">#B7B7B7</color>
+    <color name="color_F9F9F9">#F9F9F9</color>
+    <color name="color_FDFDFD">#FDFDFD</color>
+    <color name="color_F3F3F3">#F3F3F3</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_E0E0E0">#E0E0E0</color>
+    <color name="color_B0B0B0">#B0B0B0</color>
+    <color name="color_DDDCDC">#DDDCDC</color>
+    <color name="color_DFDFDF">#DFDFDF</color>
+    <color name="color_3988FF">#3988FF</color>
+    <color name="color_F5F6F8">#F5F6F8</color>
+    <color name="color_D0D0D0">#D0D0D0</color>
+    <color name="color_DEDEDE">#DEDEDE</color>
+    <color name="color_EEF4EE">#EEF4EE</color>
+
+    <color name="base_pager_color">#24272c</color>
+    <color name="actionsheet_blue">#037BFF</color>
+
+</resources>

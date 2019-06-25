@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/banner_view_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <com.biology.common.widget.banner.BannerDefaultIndicator
+        android:id="@+id/banner_view_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/banner_view_dot"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_marginBottom="@dimen/dp720_16"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginRight="@dimen/dp720_16"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:background="#000000"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/dp720_10"
+        android:visibility="gone"
+        android:layout_gravity="bottom">
+        <TextView
+            android:id="@+id/banner_view_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="健康体检"
+            android:textColor="#fff"
+            android:textSize="@dimen/dp720_36" />
+        <TextView
+            android:id="@+id/banner_view_item_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="建设大街开发商的立即付款了点开链接"
+            android:textColor="#fff"
+            android:textSize="@dimen/dp720_30" />
+    </LinearLayout>
+
+</FrameLayout>
