@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.TextView;
 
-import com.biology.common.util.Utils;
+import com.biology.common.util.SysUtils;
 import com.dhq.goodsmanger.R;
 import com.dhq.goodsmanger.abs.BaseActivity;
 import com.dhq.goodsmanger.ui.login.LoginActivity;
@@ -85,7 +85,7 @@ public class SplashActivity extends BaseActivity {
     @Override
     public void onBackPressed() {
 //        super.onBackPressed();
-        Utils.exitApp(this);
+        SysUtils.exitApp(this);
     }
 
 
