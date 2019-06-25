@@ -6,6 +6,41 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="title_text_style_black">
+        <item name="android:textColor">@color/color_000000</item>
+        <item name="android:textSize">@dimen/dp720_36</item>
+    </style>
+
+    <style name="title_text_style">
+        <item name="android:textColor">@color/color_FFFFFF</item>
+        <item name="android:textSize">@dimen/dp720_36</item>
+    </style>
+
+    <style name="title_text_style_gray">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:textSize">@dimen/dp720_36</item>
+    </style>
+
+
+    <style name="page_text_style">
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:textSize">@dimen/dp720_24</item>
+        <item name="android:textColorHint">@color/color_B7B7B7</item>
+    </style>
+
+    <style name="page_text_style_white">
+        <item name="android:textColor">@color/color_FFFFFF</item>
+        <item name="android:textSize">@dimen/dp720_24</item>
+    </style>
+
+    <style name="page_text_style_blank">
+        <item name="android:textColor">@color/color_000000</item>
+        <item name="android:textSize">@dimen/dp720_24</item>
+        <item name="android:textColorHint">@color/color_B7B7B7</item>
     </style>
 
 </resources>

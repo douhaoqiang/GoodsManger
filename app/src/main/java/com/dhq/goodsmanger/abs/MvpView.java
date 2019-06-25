@@ -9,15 +9,6 @@ package com.dhq.goodsmanger.abs;
 
 public interface MvpView {
 
-//    Context obtainContext();
-//
-//    Activity obtainActivity();
 
-    /**
-     * only show loading view
-     */
-    void showLoading(String waitMessage);
-    void showLoading();
-    void hideLoading();
 
 }
