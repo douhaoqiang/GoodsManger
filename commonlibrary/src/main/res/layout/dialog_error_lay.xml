@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dp720_600"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rectangle_white_small_radius"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp720_180"
+        android:layout_margin="@dimen/dp720_30"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_description"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:lineSpacingMultiplier="1.1"-->
+            <!--android:textColor="#757575"-->
+            <!--android:textSize="14sp"-->
+            <!--tools:text="" />-->
+
+
+        <TextView
+            android:id="@+id/tv_msg"
+            style="@style/page_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            tools:text="此处为提示信息"
+            android:layout_marginTop="@dimen/dp720_20"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/dp720_40"/>
+
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp720_2"
+        android:background="@color/color_5A925A"/>
+
+    <TextView
+        android:id="@+id/tv_comfirm"
+        style="@style/page_text_style"
+        android:layout_width="@dimen/dp720_240"
+        android:layout_height="@dimen/dp720_80"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/color_5B925B"
+        android:textSize="@dimen/dp720_40"
+        android:text="确定"/>
+
+</LinearLayout>

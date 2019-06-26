@@ -10,6 +10,7 @@ import com.biology.common.util.SysUtils;
 import com.dhq.goodsmanger.R;
 import com.dhq.goodsmanger.abs.BaseActivity;
 import com.dhq.goodsmanger.ui.login.LoginActivity;
+import com.dhq.goodsmanger.ui.scan.ZBarScanActivity;
 
 
 /**
@@ -45,7 +46,7 @@ public class SplashActivity extends BaseActivity {
         getHeaderUtil().setHeaderHint();
         tvTime = findViewById(R.id.tv_time);
         startTime();
-
+        startPage();
     }
 
 
@@ -96,7 +97,8 @@ public class SplashActivity extends BaseActivity {
     }
 
     private void startPage() {
-        Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+//        Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
+        Intent intent = new Intent(SplashActivity.this, ZBarScanActivity.class);
         startActivity(intent);
         finish();
     }

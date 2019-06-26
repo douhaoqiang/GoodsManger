@@ -23,6 +23,11 @@ public class ToastUtils {
 //    }
 
     private static void showToast(Context context, String msg, int time) {
+
+        if (context==null){
+            return;
+        }
+
         if (toast == null) {
             toast = Toast.makeText(context, msg, time);
         } else {

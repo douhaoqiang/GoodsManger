@@ -2,8 +2,7 @@ package com.dhq.goodsmanger.http;
 
 import android.util.Log;
 
-import com.tangzy.mvpframe.BuildConfig;
-import com.tangzy.mvpframe.util.Logger;
+import com.biology.common.BuildConfig;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -95,7 +94,7 @@ public class MyIntercepter implements Interceptor {
                 return;
             }
             String params = buffer.readString(charset);
-            Logger.d(TAG, "请求参数： | " + params);
+            Log.d(TAG, "请求参数： | " + params);
         } catch (IOException e) {
             e.printStackTrace();
         }

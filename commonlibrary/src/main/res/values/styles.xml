@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
+    <style name="NiceDialog" parent="@android:style/Theme.Dialog">
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
 
     <!-- BannerView属性 -->
     <declare-styleable name="BannerView">

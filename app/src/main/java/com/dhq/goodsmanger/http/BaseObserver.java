@@ -6,17 +6,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import com.biology.common.base.BaseDialogFragment;
+import com.biology.common.base.CommDialog;
+import com.biology.common.base.ViewConvertListener;
+import com.biology.common.base.ViewHolder;
+import com.biology.common.util.ToastUtils;
+import com.dhq.goodsmanger.R;
+import com.dhq.goodsmanger.entity.BaseResponse;
+import com.dhq.goodsmanger.view.ProgressDialog;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import com.tangzy.mvpframe.R;
-import com.tangzy.mvpframe.http.entity.BaseResponse;
-import com.tangzy.mvpframe.util.NetWorkUtils;
-import com.tangzy.mvpframe.util.Toasts;
-import com.tangzy.mvpframe.view.ProgressDialog;
-import com.tangzy.mvpframe.view.dialog.base.BaseDialogFragment;
-import com.tangzy.mvpframe.view.dialog.base.CommDialog;
-import com.tangzy.mvpframe.view.dialog.base.ViewConvertListener;
-import com.tangzy.mvpframe.view.dialog.base.ViewHolder;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -92,13 +91,13 @@ public abstract class BaseObserver<T> implements Observer<BaseResponse> {
     public void onSubscribe(Disposable d) {
         this.mDisposable = d;
 
-        if (!NetWorkUtils.isNetworkConnected()) {
-            Toasts.showToastLong( "当前网络不可用，请检查网络情况");
-
-            fail("");
-            cancle();
-            return;
-        }
+//        if (!NetWorkUtils.isNetworkConnected()) {
+//            ToastUtils.showToastLong( mContext,"当前网络不可用，请检查网络情况");
+//
+//            fail("");
+//            cancle();
+//            return;
+//        }
 
         showWaitingDialog();
     }
