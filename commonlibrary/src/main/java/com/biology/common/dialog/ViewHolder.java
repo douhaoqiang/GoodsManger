@@ -1,4 +1,4 @@
-package com.biology.common.base;
+package com.biology.common.dialog;
 
 import android.util.SparseArray;
 import android.view.View;

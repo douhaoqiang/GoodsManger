@@ -1,4 +1,4 @@
-package com.dhq.goodsmanger.abs;
+package com.biology.common.base;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,7 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.dhq.goodsmanger.R;
+
+import com.biology.common.R;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

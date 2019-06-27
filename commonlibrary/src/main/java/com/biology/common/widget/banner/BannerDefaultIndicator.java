@@ -51,6 +51,7 @@ public class BannerDefaultIndicator<T> extends LinearLayout implements IBannerIn
      * @param bannerView
      * @return
      */
+    @Override
     public void attchBannerView(BannerView bannerView) {
         this.mBannerView = bannerView;
         notifyDataChangedView();
@@ -69,6 +70,7 @@ public class BannerDefaultIndicator<T> extends LinearLayout implements IBannerIn
      * @param pageIndicatorId
      * @return
      */
+    @Override
     public BannerDefaultIndicator setNormalIndicatorRes(@DrawableRes int pageIndicatorId) {
         this.pageNormalIndicatorRes = pageIndicatorId;
         return this;
@@ -80,6 +82,7 @@ public class BannerDefaultIndicator<T> extends LinearLayout implements IBannerIn
      * @param pageIndicatorId
      * @return
      */
+    @Override
     public BannerDefaultIndicator setSelectIndicatorRes(@DrawableRes int pageIndicatorId) {
         this.pageSelectIndicatorRes = pageIndicatorId;
         return this;
@@ -112,6 +115,7 @@ public class BannerDefaultIndicator<T> extends LinearLayout implements IBannerIn
     }
 
 
+    @Override
     public void onIndicatorSelected(int index) {
         // 指示器
         this.position = index;

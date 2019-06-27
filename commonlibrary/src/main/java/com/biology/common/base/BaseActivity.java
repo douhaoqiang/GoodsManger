@@ -1,4 +1,4 @@
-package com.dhq.goodsmanger.abs;
+package com.biology.common.base;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,8 +14,9 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.LinearLayout;
 
-import com.dhq.goodsmanger.R;
-import com.dhq.goodsmanger.util.HeaderUtil;
+
+import com.biology.common.R;
+import com.biology.common.util.HeaderUtil;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.dhq.goodsmanger.abs;
+package com.biology.common.base;
 
 import java.lang.ref.WeakReference;
 

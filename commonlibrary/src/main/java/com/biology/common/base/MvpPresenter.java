@@ -1,4 +1,4 @@
-package com.dhq.goodsmanger.abs;
+package com.biology.common.base;
 
 /**
  * Created by Administrator on 2018/5/31.

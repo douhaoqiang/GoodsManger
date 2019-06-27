@@ -6,11 +6,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.biology.common.base.BaseDialogFragment;
-import com.biology.common.base.CommDialog;
-import com.biology.common.base.ViewConvertListener;
-import com.biology.common.base.ViewHolder;
-import com.biology.common.util.ToastUtils;
+import com.biology.common.dialog.BaseDialogFragment;
+import com.biology.common.dialog.CommDialog;
+import com.biology.common.dialog.ViewConvertListener;
+import com.biology.common.dialog.ViewHolder;
 import com.dhq.goodsmanger.R;
 import com.dhq.goodsmanger.entity.BaseResponse;
 import com.dhq.goodsmanger.view.ProgressDialog;
