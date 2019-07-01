@@ -93,25 +93,6 @@ public class HttpUtil {
 	public static String doPost1(String url, Map<String, String> header, String body) {
 
 
-//		Map<String, String> params=new HashMap<>();
-//		params.put("image",body);
-//		com.dhq.goodsmanger.http.http.HttpUtil.getInstance().postJsonHttpRequest(url, params, new BaseObserver() {
-//			@Override
-//			public void success(Object result) {
-//
-//			}
-//
-//			@Override
-//			public void fail(String msg) {
-//
-//			}
-//
-//			@Override
-//			public void onNext(Object o) {
-//
-//			}
-//		});
-
 		String result = "";
 		BufferedReader in = null;
 		PrintWriter out = null;
