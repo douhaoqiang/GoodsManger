@@ -3,8 +3,8 @@ package com.dhq.goodsmanger.ui.scan;
 import android.os.Vibrator;
 import android.util.Log;
 
+import com.biology.common.base.BaseActivity;
 import com.dhq.goodsmanger.R;
-import com.dhq.goodsmanger.abs.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ import cn.bingoogolapple.qrcode.zbar.ZBarView;
  * @author douhaoqiang
  * @date 2019/6/26.
  */
-public class ZBarScanActivity extends BaseActivity  implements QRCodeView.Delegate{
+public class ZBarScanActivity extends BaseActivity implements QRCodeView.Delegate{
 
     private ZBarView mZBarView;
 

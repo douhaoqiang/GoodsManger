@@ -1,6 +1,7 @@
 package com.dhq.goodsmanger.ui.login;
 
-import com.dhq.goodsmanger.abs.BaseActivity;
+
+import com.biology.common.base.BaseActivity;
 
 /**
  * DESC

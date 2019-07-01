@@ -6,10 +6,11 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.TextView;
 
+import com.biology.common.base.BaseActivity;
 import com.biology.common.util.SysUtils;
 import com.dhq.goodsmanger.R;
-import com.dhq.goodsmanger.abs.BaseActivity;
 import com.dhq.goodsmanger.ui.login.LoginActivity;
+import com.dhq.goodsmanger.ui.scan.TextScanActivity;
 import com.dhq.goodsmanger.ui.scan.ZBarScanActivity;
 
 
@@ -98,7 +99,8 @@ public class SplashActivity extends BaseActivity {
 
     private void startPage() {
 //        Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
-        Intent intent = new Intent(SplashActivity.this, ZBarScanActivity.class);
+//        Intent intent = new Intent(SplashActivity.this, ZBarScanActivity.class);
+        Intent intent = new Intent(SplashActivity.this, TextScanActivity.class);
         startActivity(intent);
         finish();
     }
